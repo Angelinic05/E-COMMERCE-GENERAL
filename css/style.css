@@ -20,7 +20,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid black;
     height: 80px;
     background-color: black;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.64);
@@ -558,7 +557,23 @@ hr{
 }
 
 /* Estilos para el menú en dispositivos móviles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
+    .wide{
+        grid-column: span 2;
+    }
+    .tall{
+        grid-row: span 2;
+    }
+
+    header{
+        height: 40px;
+    }
+
+    .logo{
+        width: 15%;
+        height: 70%;
+        margin-left: 20px;
+    }
     .menu-btn {
         display: block; /* Mostrar el botón de menú en dispositivos móviles */
         position: absolute;
