@@ -517,6 +517,7 @@ hr{
     gap:10px;
 }
 
+
 .text-somos p{
     color: #fff;
     margin: 5px 50px 0 50px; /* Esto aplicará 0 de margen arriba, 10px de margen a la derecha, 0 de margen abajo y 20px de margen a la izquierda */
@@ -545,8 +546,6 @@ hr{
     height: 70%;
     color: #fff;
 }
-
-
 
 
 
@@ -708,10 +707,45 @@ hr{
 
 
 
+/* SOMOS ---------------------------------------------------------- */
+
+    .cont-somos{
+        margin-top: 10px;
+        height: 420px;
+    }
+
+    .text-somos p{
+        font-size: 15px;
+    }
 
 
+    .cont-perfil{
+        height: 230px;
+        width: 500px;
+        gap: 2px;
+    }
 
-    
-    
+    .logoo img{
+        width: 200px;
+    }
+
+    .perfil{
+        display: flex;
+        width: 30%;
+        justify-content: flex-end;
+    }
+
+    .perfil img{
+        display: flex;
+        width: 120px;
+        height: 190px;
+        justify-content: flex-end;
+    }
+
+    .text-somos2{
+        font-size: 12px;
+        width: 200px;
+        justify-content: flex-start;
+    }
 }
 
