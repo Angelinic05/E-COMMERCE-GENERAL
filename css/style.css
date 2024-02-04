@@ -558,11 +558,10 @@ hr{
 
 /* Estilos para el menú en dispositivos móviles */
 @media screen and (max-width: 700px) {
-    .wide{
-        grid-column: span 2;
-    }
-    .tall{
-        grid-row: span 2;
+    
+    h1{
+        font-size: 20px;
+        color: #bbd14b;
     }
 
     header{
@@ -570,13 +569,15 @@ hr{
     }
 
     .logo{
-        width: 15%;
+        width: 25%;
         height: 70%;
         margin-left: 20px;
     }
+
     .menu-btn {
         display: block; /* Mostrar el botón de menú en dispositivos móviles */
         position: absolute;
+        height: 40px;
         top: 15px;
         right: 15px;
         background: transparent;
@@ -625,8 +626,91 @@ hr{
         position: relative;
         overflow: hidden;
         width: 100%;
-        height: 190px; /* Altura predeterminada */
+        height: 100px; /* Altura predeterminada */
     }
+
+    .conte-intro{
+        padding: 5px;
+        margin-left: 10px;
+        margin-right: 10px ;
+        display: flex;
+        flex-direction: column;
+        height: 340px;
+        text-align: center;
+    }
+
+    /* ---------------------------------------------------------------------------------------- */
+
+    /* CATALOGOS */
+
+    .galeria_principal-cat{
+        margin-top: 2px;
+        height: 500px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+        grid-auto-rows: minmax(60px, auto);
+        gap: 2px;
+        grid-auto-flow: dense;
+    }
+
+    .grid-item-cat{
+        display: grid;
+        grid-template-rows: 60% 30% 10%;
+        box-shadow: 5px 5px 30px black;
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    
+
+    .foto-galeria-cat img{
+        margin-top: 0;
+        margin-left: 0;
+        background-size: cover;
+        height: 100%;
+        width: 100%; 
+    }
+
+    .detalles-foto-cat{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo-detalles-cat{
+        text-align: center;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+
+    .precio-cat{
+        font-size: 15px;
+    }
+
+    .tallas-cat{
+        display: flex;
+    }
+
+    .talla-cat{
+        color: #fff;
+        font-size: 15px;
+        border-radius: 20%;
+        padding: 5px;
+        border: 2px solid black;
+    }
+
+    .boton-detalles{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
     
 }
 
