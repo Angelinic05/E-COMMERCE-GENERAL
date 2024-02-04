@@ -782,6 +782,68 @@ hr{
         font-size: 10px;
     }
 
+    /* ---------------------------------------------------------------------------------------- */
 
+    /* FLOTANTE */
+
+    .ventana{
+        top: 30%;
+        margin: 10%;
+        margin-left: 10%;
+        width: 320px;
+        height: 250px;
+        padding-left: 3px;
+    }
+
+    .modal{
+        top: 0;
+    }
+
+    .modal:target{
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transition: all 0.1s;
+    }
+
+    .cerrar {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: black;
+        text-decoration: none;
+    }
+    .foto-det img{
+        
+        margin-top: 0;
+        margin-left: 0;
+        padding: 5px;
+        background-size: cover;
+        height: 50%;
+        width: 100%;
+    }
+
+    .titulo-det{
+        font-size: 9px;
+    }
+    .cont-det{
+        display: grid;
+        grid-template-rows: 5% 5% 15% 50% 20%;
+        height: 67%;
+        text-transform: uppercase;
+        margin-top: 13px;
+        padding: 1px; 
+        gap: 10px; 
+    }
+  
+
+    .detalles-text{
+        color: black;
+        border-radius: 20px;
+        padding: 4px;
+        font-weight: bold;
+        font-size: 9px;
+        width: 80%;
+    }
 }
 
