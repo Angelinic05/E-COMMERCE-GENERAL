@@ -787,6 +787,7 @@ hr{
     /* FLOTANTE */
 
     .ventana{
+        grid-template-columns: 40% 50%;
         top: 30%;
         margin: 10%;
         margin-left: 10%;
@@ -794,6 +795,7 @@ hr{
         height: 250px;
         padding-left: 3px;
     }
+
 
     .modal{
         top: 0;
@@ -813,6 +815,8 @@ hr{
         color: black;
         text-decoration: none;
     }
+    
+
     .foto-det img{
         
         margin-top: 0;
