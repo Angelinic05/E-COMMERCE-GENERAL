@@ -217,10 +217,7 @@ nav ul ul a {
     padding: 100px;
     margin-left: 150px;
     margin-right: 150px ;
-    display: flex;
-    flex-direction: column;
     height: 100px;
-    text-align: center;
 }
 
 h1{
@@ -705,6 +702,15 @@ hr{
         flex-direction: column;
     }
 
+    .conten-pie a{
+        font-size: 16px;
+    }
+
+    .conten-pie p{
+        font-size: 16px;
+
+    }
+
 
 
 /* SOMOS ---------------------------------------------------------- */
@@ -747,5 +753,35 @@ hr{
         width: 200px;
         justify-content: flex-start;
     }
+
+    /* CATALOGO ---------------------------------------------------------- */
+
+    
+    .galeria_principal-cat{
+        margin-top: 20px;
+        height: 2100px;
+        grid-template-columns: 47% 47%;
+        grid-auto-rows: 340px;
+    }
+
+
+    .titulo-detalles-cat{
+        font-size: 10px;
+    }
+
+    .conte-intro1{
+        padding: 5px;
+        margin-left: 10px;
+        margin-right: 10px ;
+        display: flex;
+        flex-direction: column;
+        height: 30px;
+        text-align: center;
+    }
+    .precio-cat{
+        font-size: 10px;
+    }
+
+
 }
 
